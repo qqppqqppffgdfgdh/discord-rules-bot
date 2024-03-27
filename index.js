@@ -29,10 +29,10 @@ client.on('messageCreate', async message => {
 
       const embed = new MessageEmbed()
         .setColor('#f8ca3d')
-        .setThumbnail('')
+        .setThumbnail('https://media.discordapp.net/attachments/1035667476601655348/1222234794767814806/Untitled-4.png?ex=661579db&is=660304db&hm=26ef04faec9d5553842745ff67ac1d51fd7ce298e879d94965deff01199ab92e&=&format=webp&quality=lossless&width=683&height=683')
         .setTitle('قوانين السيرفر')
-        .setDescription('**الرجاء اختيار احد القوانين لقرائته من قائمة الاختيارات تحت**')
-        .setImage('')
+        .setDescription('**جميع القوانين التابعه لاست بليس نرجوا منك إتباع جميع القوانين لكي لا يتم محاسبتك**')
+        .setImage('https://media.discordapp.net/attachments/1035667476601655348/1222234795321593958/1_Comp_1_2022-10-01_21.36.25.png?ex=661579db&is=660304db&hm=a6eb4f5dc9336baafcf54e000067751a2bfd886478f0e7ceb8f4b16ddd5eedf9&=&format=webp&quality=lossless&width=1214&height=683')
         .setFooter({ text: 'Rules Bot' })
         .setTimestamp();
 
